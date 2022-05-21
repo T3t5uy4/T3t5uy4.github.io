@@ -1,0 +1,246 @@
+# 导航
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    # - path: https://t3t5uy4.github.io/
+    #   icon: icon-cloud-line
+    #   count: 你猜
+  custom:
+    title: 文档
+    path: https://t3t5uy4.github.io/404.html
+    icon: icon-settings-line
+
+# 标语动画
+banner:
+  enable: true
+  title:
+    - A
+    - Simple
+    - Blog
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+# 公告
+notice:
+  enable: true
+  content: Welcome to my blog.
+
+# 亮暗模式
+mode: auto
+
+# 字体
+font:
+  cdn:
+    enable: true
+    lib:
+      - https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap
+  serif:
+    family: "'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif"
+    weight: 900
+  sans_serif:
+    family: "'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif"
+    weight: 400
+  monospace:
+    family: "'Source Code Pro', 'Courier New', Courier, Consolas, Monaco, monospace"
+
+# 随机多边形背景
+trianglify:
+  enable: true
+  cellSize: 75
+  width: 800
+  height: 600
+  palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+  opacity: 0.5
+
+# 烟花
+fireworks:
+  enable: true
+  colors:
+    - "102, 167, 221"
+    - "62, 131, 225"
+    - "33, 78, 194"
+
+# Cursor光标
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+# 更换头像
+avatar:
+  url: /images/kuroko.png # 你的头像图片地址
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: ✨
+    message: 好好学习
+
+# 更换主题色彩
+colors:
+  primary: "#1E90FF"
+
+# 社交链接
+social:
+  - name: T3t5uy4
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    # link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/T3t5uy4
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/9314177
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: 微博
+    link: https://weibo.com/u/7639464914
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: E-Mail
+    link: https://t3t5uy4.github.io/404.html
+    icon: icon-mail-line
+    color: "#8E71C1"
+
+# 友情链接
+pages:
+
+# 信息
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+# 关闭 highlight
+highlight:
+  enable: false
+
+# 启用 prism
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: false
+  tab_replace: ""
+
+# 图片懒加载
+lazyload:
+  enable: true
+
+# 编辑链接
+post_edit:
+  enable: false
+  url: https://github.com/T3t5uy4/t3t5uy4.github.io/tree/hexo/source/
+
+# 打赏
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: I'm so cute(stupid). Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: /images/zfb.png
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: /images/wx.png
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+# 页脚
+footer:
+  # 起始年份
+  since: 2021
+  # 图标
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+  # 驱动
+  powered:
+    enable: false
+  # 备案
+  beian:
+    enable: false
+    icp: 浙ICP备xxxxxxxx号
+  # 运行时间
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2021-06-20T00:00:00"
+
+# 默哀
+mourn:
+  enable: true
+  days:
+    - "4-4"
+    - "5-12"
+    - "7-28"
+    - "12-13"
+
+# 评论区
+comment:
+  enable: true
+  tips:
+    - 若您想及时得到回复提醒，建议跳转 GitHub Issues 评论。
+    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+  candidates:
+    - valine
+    - utterances
+
+# Github Issue
+github_issues:
+  enable: true
+  username: T3t5uy4
+  repository: t3t5uy4.github.io
+  filters: is:issue
+
+# 通用配置
+slide:
+  separator: ---
+  separator_vertical: "~~"
+  data_separator_notes: "^Note:"
+  theme: white
+  config:
+    history: true
+    mouseWheel: false
+
+# 彩色词云
+wordcloud:
+  enable: true
+
+# 字数统计
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+# 开启KaTeX
+katex:
+  copy_tex: true
+  global: true
