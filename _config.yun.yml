@@ -62,7 +62,7 @@ font:
 
 # 随机多边形背景
 trianglify:
-  enable: false
+  enable: true
   cellSize: 75
   width: 800
   height: 600
